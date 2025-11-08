@@ -24,6 +24,15 @@ Before running, configure your OpenAI API key:
 export OPENAI_API_KEY='your-api-key-here'
 ```
 
+### Advanced Configuration
+
+For advanced configuration, copy the example config file and customize:
+
+```bash
+cp config.example.py config.py
+# Edit config.py with your preferred settings
+```
+
 You can also modify the following parameters in `prompt_optimizer.py`:
 - `MODEL`: The GPT model to use (default: "gpt-4")
 - `POP_SIZE`: Number of prompt variants per generation (default: 10)
