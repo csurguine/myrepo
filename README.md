@@ -33,6 +33,14 @@ You can also modify the following parameters in `prompt_optimizer.py`:
 
 ## Usage
 
+### Demo (No API Key Required)
+
+Run the demo to see how the metrics work without needing OpenAI API access:
+
+```bash
+python demo.py
+```
+
 ### Basic Usage
 
 Run the optimizer with default settings:
